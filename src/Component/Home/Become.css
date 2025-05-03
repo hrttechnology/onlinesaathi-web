@@ -1,0 +1,61 @@
+.saathi-wrapper {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .saathi-heading {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    color: #0077ff;
+  }
+  
+  .saathi-box {
+    background-color: #9b89f7;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .saathi-text {
+    flex: 1 1 60%;
+    font-size: 28px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .saathi-img-container {
+    flex: 1 1 2%;
+    text-align: center;
+  }
+  
+  .saathi-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .saathi-box {
+      flex-direction: column;
+      text-align: left;
+      padding: 20px;
+    }
+  
+    .saathi-heading {
+      font-size: 30px;
+    }
+  
+    .saathi-text {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,92 @@
+.hoverbox-section {
+    text-align: left;
+    padding: 2rem 1rem;
+  }
+  
+  .hoverbox-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hoverbox-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    gap: 1rem;
+  }
+  
+  .hoverbox-card {
+    background-color: #d0e6ff;
+    border-radius: 10px;
+    padding: 40px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    height: 160px;
+  }
+  
+  .hoverbox-card-content h3 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .hoverbox-card-content p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
+  }
+  
+  .hoverbox-card:hover {
+    background-color: #007aff;
+    color: #fff;
+    height: auto;
+  }
+  
+  .hoverbox-card:hover .hoverbox-card-content p {
+    opacity: 1;
+    max-height: 300px;
+    font-weight: 300;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1200px) {
+    .hoverbox-cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hoverbox-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hoverbox-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .hoverbox-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .hoverbox-card {
+      padding: 20px;
+      border-radius: 10px;
+    }
+  
+    .hoverbox-card-content h3 {
+      font-size: 1.1rem;
+    }
+  
+    .hoverbox-card-content p {
+      font-size: 0.9rem;
+    }
+  }
+  

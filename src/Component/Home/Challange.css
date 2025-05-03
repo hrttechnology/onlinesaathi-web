@@ -1,0 +1,97 @@
+.challenge-wrapper {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .challenge-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  .challenge-title span {
+    color: #0077ff;
+  }
+  
+  .challenge-description {
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .challenge-card {
+    background-color: #d6e9fe;
+    border-radius: 20px;
+    padding: 25px;
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+    min-height: 230px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card-content {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .challenge-card:hover .card-content {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front, .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    white-space: pre-line;
+  }
+  
+  .card-front {
+    background-color: #d6e9fe;
+    font-size: 26px;
+    color: #111;
+  }
+  
+  .card-back {
+    background-color: #a9d6fd;
+    transform: rotateY(180deg);
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .challenge-title {
+      font-size: 28px;
+    }
+  
+    .challenge-description {
+      font-size: 16px;
+    }
+  }
+  

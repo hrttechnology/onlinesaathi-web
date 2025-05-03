@@ -1,0 +1,205 @@
+.combination-container {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #fff;
+  }
+  
+  .combo-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:140px;
+    flex-wrap: wrap;
+  }
+  
+  .combo-image {
+    flex-shrink: 0;
+    width: 380px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+  .combo-image img {
+    width: 130%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .combo-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  .combo-texts{
+    /* flex: 1; */
+    max-width: 1080px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 400px;
+  }
+  .combo-text h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .combo-text p {
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.9;
+  }
+  
+
+  /* Tablet & Mobile Responsive */
+@media (max-width: 1024px) {
+    .combo-row {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      text-align: center;
+    }
+    .combo-texts {
+      max-width: 100%;
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 0;
+    }
+    .combo-row.reverse {
+      flex-direction: column;
+    }
+  
+    .combo-image {
+      width: 220px;
+      height: 220px;
+      margin-left: 0;
+    }
+  
+    .combo-text {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    
+    .combo-text h3 {
+      font-size: 1.3rem;
+    }
+  
+    .combo-text p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .combination-container {
+      padding: 40px 20px;
+    }
+  
+    .combo-image {
+      width: 280px;
+      height: 180px;
+    }
+  
+    .combo-text h3 {
+      font-size: 1.2rem;
+    }
+    
+    .combo-text p {
+      font-size: 1rem;
+    }
+  }
+  
+
+  .entrepreneur-section {
+    text-align: left;
+    padding: 2rem 1rem;
+  }
+  
+  .entrepreneur-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .entrepreneur-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+  
+  .hover-card {
+    flex: 1 1 260px;
+    max-width: 300px;
+    min-width: 240px;
+    background-color: #d0e6ff;
+    border-radius: 35px;
+    padding: 40px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    height: 160px;
+    position: relative;
+  }
+  
+  .card-content h3 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
+  }
+  
+  .hover-card:hover {
+    background-color: #007aff;
+    color: #fff;
+    height: auto;
+  }
+  
+  .hover-card:hover .card-content p {
+    opacity: 10;
+    max-height: 300px;
+    font-weight: 200;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .entrepreneur-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hover-card {
+      width: 90%;
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .entrepreneur-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .hover-card {
+      padding: 15px;
+      border-radius: 20px;
+    }
+  
+    .card-content h3 {
+      font-size: 1.1rem;
+    }
+  
+    .card-content p {
+      font-size: 0.9rem;
+    }
+  }
+  

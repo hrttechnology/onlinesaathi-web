@@ -1,0 +1,124 @@
+.combination-container {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+  }
+  
+  .combo-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 240px;
+    flex-wrap: wrap;
+  }
+  
+  .combo-image {
+    flex-shrink: 0;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+  .combo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .combo-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .combo-text h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .combo-text p {
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+
+  /* Tablet & Mobile Responsive */
+@media (max-width: 1024px) {
+    .combo-row {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .combo-row.reverse {
+      flex-direction: column;
+    }
+  
+    .combo-image {
+      width: 220px;
+      height: 220px;
+      margin-left: 0;
+    }
+  
+    .combo-text {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .combo-text h3 {
+      font-size: 1.3rem;
+    }
+  
+    .combo-text p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .combination-container {
+      padding: 40px 20px;
+    }
+  
+    .combo-image {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .combo-text h3 {
+      font-size: 1.2rem;
+    }
+  
+    .combo-text p {
+      font-size: 1rem;
+    }
+  }
+  .why-matters-box {
+    background-color: #e6f0fa;
+    padding: 40px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-matters-box h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .why-matters-box p {
+    font-size: 1.4rem;
+    color: #222;
+    line-height: 1.8;
+  }
+    

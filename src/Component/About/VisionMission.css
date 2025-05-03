@@ -1,0 +1,102 @@
+.vision-mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .vision-mission-title {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 100%; /* Ensures the left alignment spans full width */
+  }
+  .highlight-and {
+    color: #000000; /* You can change this to any color you like */
+  }
+  
+  
+  .vision-mission-title {
+    color: #007bff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .vision-mission-content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+  }
+  
+  .section-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 500px;
+  }
+  
+  .icon-box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-svg {
+    font-size: 5.5rem;
+    color: #007bff;
+  }
+  
+  /* Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .animate-icon {
+    animation: bounce 2s infinite;
+  }
+  
+  .vision-text, .mission-text {
+    font-size: 1.5rem;
+    color: #000000;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .vision-mission-title {
+      font-size: 2rem;
+    }
+  
+    .vision-mission-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .section-box {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  
+    .icon-svg {
+      font-size: 2rem;
+    }
+  
+    .vision-text, .mission-text {
+      font-size: 1rem;
+    }
+  }
+  

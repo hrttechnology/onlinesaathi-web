@@ -1,0 +1,109 @@
+.microatm-container {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .microatm-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .microatm-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .microatm-card {
+    width: 420px; /* wider card */
+    border: 2px solid #e8e1e1;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+   
+  }
+  
+  .microatm-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .microatm-card-heading {
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .microatm-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .microatm-body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .microatm-details-heading {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  .microatm-details-text {
+    font-size: 0.15rem;
+    margin-bottom: 20px;
+  }
+  
+  .microatm-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .microatm-apply-button {
+    padding: 8px 24px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .microatm-apply-button:hover {
+    background-color: #157347;
+  }
+  
+  .microatm-explore {
+    margin-top: 60px;
+  }
+  
+  .microatm-explore-button {
+    padding: 12px 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .microatm-explore-button:hover {
+    background-color: #0056b3;
+  }
+  

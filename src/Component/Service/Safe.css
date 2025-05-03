@@ -1,0 +1,146 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.col {
+    flex: 1;
+    max-width: 100%;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.image-wrapper .main-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.scroll-down-btn {
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.scroll-down-btn:hover {
+    background-color: #005bb5;
+}
+
+.how-it-works {
+    background-color: #fdfdfd;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.how-it-works h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.step-box {
+    max-width: 320px;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.step-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto 0.5rem;
+    display: block;
+}
+
+.step-box h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.step-content {
+    background-color: #dbeafe;
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+    color: #374151;
+    text-align: left;
+}
+
+.arrow {
+    display: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .col {
+        max-width: 45%;
+    }
+
+    .how-it-works h2 {
+        font-size: 2.75rem;
+    }
+
+    .arrow {
+        display: block;
+    }
+
+    .step-box h3 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        max-width: 100%;
+    }
+
+    .how-it-works {
+        padding: 1rem 0.5rem;
+    }
+
+    .how-it-works h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+}
+

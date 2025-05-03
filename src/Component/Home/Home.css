@@ -1,0 +1,183 @@
+/* Center the card */
+.hover-card-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Card Styling */
+.hover-cards {
+    background: #CCE2FB;
+    /* Default background */
+    position: relative;
+    overflow: hidden;
+    transition: background 0.8s ease-in-out;
+    width: 100%;
+    max-width: 400px;
+    /* Adjust as needed */
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Change background on hover */
+.hover-cards:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Default Text */
+.cards-text {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide default text on hover */
+.hover-cards:hover .card-text {
+    opacity: 0;
+}
+
+/* Hover Text (Initially hidden) */
+.hover-text {
+    position: absolute;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show hover text on hover */
+.hover-cards:hover .hover-text {
+    opacity: 1;
+}
+
+/* Our Technology css */
+.circular-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-image img {
+    width: 150px;
+    /* Adjust size as needed */
+}
+
+.feature {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Positioning the features in a circular layout */
+.feature-top-left {
+    top: 10%;
+    left: 15%;
+}
+
+.feature-top-right {
+    top: 10%;
+    right: 15%;
+}
+
+.feature-bottom-left {
+    bottom: 10%;
+    left: 15%;
+}
+
+.feature-bottom {
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature-bottom-right {
+    bottom: 10%;
+    right: 15%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .circular-container {
+        max-width: 100%;
+    }
+
+    .feature {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .feature img {
+        width: 40px;
+    }
+
+    .center-image img {
+        width: 120px;
+    }
+}
+
+/* animation img */
+#second-marks {
+    height: 110px;
+}
+
+.scroll-container {
+    width: 115%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: flex;
+    width: max-content;
+    animation: scroll 18s linear infinite; /* Fixed timing for smoothness */
+}
+
+.image-row {
+    display: flex;
+}
+
+/* Spacing Fix */
+.image-row img {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+/* 🔥 Key Fix: Using -50% Instead of -100% for True Seamless Effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 425px) {
+    .image-row img {
+        margin-right: 40px;
+    }
+}

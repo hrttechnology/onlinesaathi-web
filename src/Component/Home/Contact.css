@@ -1,0 +1,147 @@
+.contact-wrapper {
+    padding: 3rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .contact-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #007aff;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .contact-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .map-iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007aff;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #007aff;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #005fcc;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  
+    .contact-title {
+      font-size: 1.8rem;
+    }
+  
+    .form-title {
+      font-size: 1.3rem;
+    }
+  
+    .map-iframe {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-title {
+      font-size: 1.5rem;
+    }
+  
+    .contact-info p {
+      font-size: 0.9rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.85rem;
+    }
+  
+    .submit-btn {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+    }
+  
+    .map-iframe {
+      height: 150px;
+    }
+  }

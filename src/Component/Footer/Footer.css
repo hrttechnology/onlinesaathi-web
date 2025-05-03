@@ -1,0 +1,227 @@
+/* Footer.css */
+
+/* General Footer Styles */
+.saathi-footer {
+  background-color: #13137e;
+  font-size: 14px;
+  position: relative;
+}
+
+/* Top Section */
+.saathi-footer .saathi-footer-top {
+  padding-top: 50px;
+  position: relative;
+}
+
+/* About Section (App Download) */
+.saathi-footer .saathi-footer-about .saathi-logo {
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.saathi-footer .saathi-footer-about .saathi-logo span {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.saathi-footer .saathi-footer-about p {
+  font-size: 14px;
+}
+
+/* Social Media Icons */
+.saathi-footer .saathi-social-links a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saathi-footer .saathi-social-links a:hover {
+  color: #018BD3;
+  border-color: #018BD3;
+}
+
+/* Section Headings */
+.saathi-footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  color: #fff;
+}
+
+/* Links Section */
+.saathi-footer .saathi-footer-links {
+  margin-bottom: 30px;
+}
+
+.saathi-footer .saathi-footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.saathi-footer .saathi-footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.saathi-footer .saathi-footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.saathi-footer .saathi-footer-links ul a {
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.saathi-footer .saathi-footer-links ul a:hover {
+  color: #018BD3;
+}
+
+/* Contact Info */
+.saathi-footer .saathi-footer-contact p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Get In Touch Box (Top-Right) */
+.saathi-get-in-touch-top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 230px;
+  z-index: 10;
+}
+
+.saathi-get-in-touch-top-right h4 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.saathi-get-in-touch-top-right .saathi-footer-contact p {
+  margin: 0 0 5px 0;
+  font-size: 13px;
+}
+
+.saathi-get-in-touch-top-right .saathi-footer-contact a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.saathi-get-in-touch-top-right .saathi-footer-contact a:hover {
+  color: #018BD3;
+}
+
+/* Policy Links Styling */
+.policy-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .policy-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+/* Responsive Adjustments for iPads and Tablets */
+@media (max-width: 1024px) {
+  /* Get in Touch section shifts below */
+  .saathi-get-in-touch-top-right {
+    position: static;
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* Center Align Footer Content */
+  .saathi-footer-about,
+  .saathi-footer-links,
+  .saathi-footer-contact {
+    text-align: center;
+  }
+
+  /* Center the link lists */
+  .saathi-footer-links ul li {
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Adjust heading sizes slightly */
+  .saathi-footer h4 {
+    font-size: 17px;
+  }
+
+  /* Social icons center aligned */
+  .saathi-footer .saathi-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+  }
+}
+
+/* Extra Mobile Optimization */
+@media (max-width: 767px) {
+  .policy-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Button Apply Now */
+.apply-now-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #198754;
+  border-radius: 50px;
+  padding: 8px 18px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  gap: 10px;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.apply-now-button:hover {
+  background-color: #157347;
+}
+
+@media (min-width: 768px) {
+  .apply-now-button {
+    font-size: 15px;
+    padding: 10px 22px;
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .d-flex.text-center a {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .d-flex.text-center h5 {
+    text-align: center;
+  }
+}
