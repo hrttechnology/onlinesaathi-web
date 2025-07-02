@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './Techo.css';
+import './techo.css';
 import { Link } from 'react-router-dom';
 
 // Import placeholder icons (replace these with actual icon paths)
