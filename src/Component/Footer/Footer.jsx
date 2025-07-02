@@ -176,19 +176,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* Policy Links */}
-          {/* <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3 text-center"
-          style={{ gap: isMobile ? '8px' : '20px' }}>
-    <NavLink to="/refund-policy" className="text-white text-decoration-underline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-    <h5 className="mb-0">Refund Policy</h5>
-    </NavLink>||
-    <NavLink to="/terms-condition" className="text-white text-decoration-underline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-    <h5 className="mb-0">Terms & Conditions</h5>
-    </NavLink>||
-    <NavLink to="/privacy-policy" className="text-white text-decoration-underline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-      <h5 className="mb-0">Privacy Policy</h5>
-    </NavLink>
-    </div> */}
 
         </div>
       </footer>
@@ -209,7 +196,7 @@ function Footer() {
         className="text-white text-decoration-underline"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <h5 className="mb-0">Refund Policy</h5>
+        <h5 className="mb-0">Refund Policy ||</h5>
       </NavLink>
 
       <NavLink
@@ -217,7 +204,7 @@ function Footer() {
         className="text-white text-decoration-underline"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <h5 className="mb-0">Terms & Conditions</h5>
+        <h5 className="mb-0">Terms & Conditions ||</h5>
       </NavLink>
 
       <NavLink
