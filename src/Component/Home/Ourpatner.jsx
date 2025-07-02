@@ -1,5 +1,5 @@
 import React from 'react';
-import './OurPatner.css';
+import './Ourpatner.css';
 import img from '../Home/profit.gif';
 import sol from '../Home/sol1.gif';
 import img2 from '../Home/business.gif';
