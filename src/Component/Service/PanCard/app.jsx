@@ -1,6 +1,6 @@
 // App.jsx
 import React from 'react';
-import './App.css';
+import './app.css';
 import { FaRegIdCard, FaUpload, FaPaperPlane, FaImage, FaCheckDouble, FaCalendarCheck, FaQrcode } from 'react-icons/fa';
 import Faqs from './Faqs'
 const steps = [
