@@ -196,7 +196,7 @@ function Footer() {
         className="text-white text-decoration-underline"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <h5 className="mb-0">Refund Policy ||</h5>
+        <h5 className="mb-0">Refund Policy || </h5>
       </NavLink>
 
       <NavLink
@@ -204,7 +204,7 @@ function Footer() {
         className="text-white text-decoration-underline"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <h5 className="mb-0">Terms & Conditions ||</h5>
+        <h5 className="mb-0">Terms & Conditions || </h5>
       </NavLink>
 
       <NavLink
