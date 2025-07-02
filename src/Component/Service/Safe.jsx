@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import "../Service/safe.css";
+import "../Service/Safe.css";
 import about1 from "../Service/safe.gif";
 import skillImg from "../Service/saf1.gif"; // Replace with actual skill assessment image
 import jobImg from "../Service/safe2.gif";   // Replace with actual job matching image
