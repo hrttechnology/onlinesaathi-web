@@ -12,27 +12,27 @@ function Safe() {
     return (
         <>
             <br />
-            <section id="about" className="about section">
+            <section id="about" className="about section"  style={{ marginTop: '50px' }}>
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
-                <div
-  className="row"
-  style={{
-    display: 'flex',
-    flexDirection: isMobile ? 'column-reverse' : 'row',  // ← This is key
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    gap: '0.5rem',
-  }}
->
-<div
-  className="col"
-  style={{
-    flex: isMobile ? '0 0 100%' : '0 0 45%',
-    maxWidth: isMobile ? '100%' : '45%',
-  }}
-  data-aos="fade-up"
-  data-aos-delay="200"
->
+                    <div
+                        className="row"
+                        style={{
+                            display: 'flex',
+                            flexDirection: isMobile ? 'column-reverse' : 'row',  // ← This is key
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.5rem',
+                        }}
+                    >
+                        <div
+                            className="col"
+                            style={{
+                                flex: isMobile ? '0 0 100%' : '0 0 45%',
+                                maxWidth: isMobile ? '100%' : '45%',
+                            }}
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
 
                             <h1 style={{
                                 marginTop: '1.5rem',
@@ -54,14 +54,14 @@ function Safe() {
                         </div>
 
                         <div
-    className="col"
-    style={{
-      flex: isMobile ? '0 0 100%' : '0 0 50%',
-      maxWidth: isMobile ? '100%' : '50%',
-    }}
-    data-aos="fade-up"
-    data-aos-delay="300"
-  >
+                            className="col"
+                            style={{
+                                flex: isMobile ? '0 0 100%' : '0 0 50%',
+                                maxWidth: isMobile ? '100%' : '50%',
+                            }}
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
                             <div className="image-wrapper">
                                 <div className="images position-relative" data-aos="zoom-out" data-aos-delay="400">
                                     <img src={about1} alt="Business Meeting" className="main-image" style={{ width: '100%', height: '100%', borderRadius: '0.5rem', objectFit: 'cover' }} />

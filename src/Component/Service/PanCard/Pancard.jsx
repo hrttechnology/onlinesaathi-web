@@ -5,8 +5,8 @@ import Application from '../PanCard/app.jsx'
 const PanCard = () => {
     return (
         <>
-      <div className="technology-section">
-        <div className="tech-left">
+      <div className="technology-section container" style={{ marginTop: '90px' }}>
+        <div className="tech-left ">
           <h2 className="tech-heading">
             Pan Card <span className="highlight">Center</span>
           </h2>

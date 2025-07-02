@@ -26,7 +26,7 @@ const HoverBox = () => {
   ];
 
   return (
-    <div className="hoverbox-section">
+    <div className="hoverbox-section container">
       <h2><strong>Our Local Entrepreneurs do below thing's</strong></h2>
       <div className="hoverbox-cards">
         {cards.map((card, index) => (

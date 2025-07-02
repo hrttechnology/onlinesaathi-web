@@ -137,7 +137,7 @@ import img from '../Community/c1.jpeg'
 import img1 from '../Community/c2.jpeg'
 const Community = () => {
   return (
-    <div className="container-fluid bg-light py-4 ">
+    <div className="container-fluid bg-light py-4  " style={{ marginTop: '80px' }}>
       <div className="row gx-4">
         {/* Left Sidebar - Community Members */}
         <div className="col-lg-3 mb-4 ">

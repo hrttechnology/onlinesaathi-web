@@ -20,7 +20,7 @@ function About() {
             <br />
 
             {/* Section 1: Micro ATM */}
-            <section id="about" className="about section">
+            <section id="about" className="about section" style={{ marginTop: '50px' }}>
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row" style={{
                         flexDirection: isMobile ? 'column' : 'row',

@@ -8,7 +8,7 @@ function Partners() {
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
     return (
         <>
-            <div id="" className=" mb-6" data-bs-ride="carousel">
+            <div id="" className=" mb-6" data-bs-ride="carousel"  style={{ marginTop: '60px' }}>
                 {/* Carousel Items */}
                 <div className="carousel-inner">
                     {/* img section 3 */}
@@ -50,7 +50,7 @@ function Partners() {
                                     width: '100%',
                                     marginBottom: "10px",
                                     marginTop:"120px",
-                                    marginLeft:"300px"
+                                    marginLeft:"150px"
                                 }}>
                                     Discover Govenment Scheme for you
                                 </h4>
@@ -63,7 +63,7 @@ function Partners() {
                                     width: '100%',
                                     textAlign: window.innerWidth < 768 ? "center" : "center",
                                     marginBottom: "20px",
-                                    marginLeft:"100px"
+                                    marginLeft:"20px"
                                 }}>
                                     Find Personalized Schemes based on your eligibilty.
                                 </p>

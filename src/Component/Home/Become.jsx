@@ -4,7 +4,7 @@ import saathiImage from '../Home/become.png'; // update path as needed
 
 const BecomeSaathi = () => {
   return (
-    <div className="saathi-wrapper">
+    <div className="saathi-wrapper container">
       <h2 className="saathi-heading">
         Become a <span className="highlight">Saathi</span>
       </h2>

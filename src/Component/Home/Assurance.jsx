@@ -29,7 +29,7 @@ const Assurance = () => {
     };
   
     return (
-      <div className="assurance-container">
+      <div className="assurance-container container">
         <h1 className="assurance-heading">
           Our strength and <span className="blue-text">assurance</span>
         </h1>

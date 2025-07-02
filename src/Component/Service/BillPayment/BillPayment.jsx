@@ -7,7 +7,7 @@ import about1 from "../BillPayment/bill.jpeg";
 
 function BillPayment() {
     return (
-        <section id="about" className="about section">
+        <section id="about" className="about section" style={{ marginTop: '60px' }}>
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row gy-4 align-items-center justify-content-between">
                     <div className="col-xl-5" data-aos="fade-up" data-aos-delay="200">
@@ -32,7 +32,7 @@ function BillPayment() {
                 </div>
             </div>
 
-            <div className="feature-cards-container">
+            <div className="feature-cards-container container">
                 <div className="feature-card">
                     Connecting users to a comprehensive network of billers
                 </div>

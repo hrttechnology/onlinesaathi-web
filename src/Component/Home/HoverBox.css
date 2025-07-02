@@ -1,5 +1,5 @@
 .hoverbox-section {
-    text-align: left;
+    text-align: center;
     padding: 2rem 1rem;
   }
   
@@ -10,7 +10,7 @@
   
   .hoverbox-cards {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    grid-template-columns: repeat(3, 1fr); /* 5 cards per row */
     gap: 1rem;
   }
   

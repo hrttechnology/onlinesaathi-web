@@ -99,7 +99,7 @@ const JobCards = () => {
   };
 
   return (
-    <div className="featured-jobs">
+    <div className="featured-jobs ">
       <h1 className="featured-heading">
         <span>All Featured</span> <span className="highlighted">Jobs</span>
       </h1>

@@ -13,7 +13,7 @@ function NeoBanking() {
 
     return (
         <>
-            <section id="about" className="about section">
+            <section id="about" className="about section"style={{ marginTop: '60px' }}>
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row">
                         <div className="col image-col" data-aos="zoom-out" data-aos-delay="400">

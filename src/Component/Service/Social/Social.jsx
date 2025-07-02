@@ -71,7 +71,7 @@ const Social = () => {
       {/* Search and Filter Section */}
       
 
-      <div className="filter-buttons">
+      <div className="filter-buttons ">
         <button
           className={activeFilter === 'All' ? 'active' : ''}
           onClick={() => handleFilter('All')}

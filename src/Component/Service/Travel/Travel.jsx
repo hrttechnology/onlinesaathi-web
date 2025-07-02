@@ -31,7 +31,7 @@ const Travel = () => {
   };
 
   return (
-    <div className="travel-container">
+    <div className="travel-container  ">
       <Swiper
         loop={true}
         autoplay={{

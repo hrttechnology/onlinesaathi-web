@@ -84,7 +84,7 @@ function Home() {
                 </div>
 
                 {/* Carousel Items */}
-                <div className="carousel-inner">
+                <div className="carousel-inner" style={{ marginTop: '60px' }}>
                     {/* img section 1 */}
                     <div className="carousel-item active" style={{ position: "relative" }}>
                         <img src={worker} alt="" style={{ height: '90vh', width: '100%', objectFit: 'cover' }} />
@@ -658,7 +658,7 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <Challange />
+            <Challange/>
             
                 {/* Our Solution */}
              
@@ -704,9 +704,9 @@ function Home() {
                 
                 <br />
                 <br />
-                <div className="py-2 mb-5">
+                <div className=" container">
                     <div className="scroll-container">
-                        <div className="scroll-content">
+                        <div className="scroll-content container">
                             {/* 🔥 SINGLE image-row repeated twice for seamless effect */}
                             <div className="image-row">
                                 <img src={img0} className="img-fluid" id="second-marks" alt="companyLogo" />

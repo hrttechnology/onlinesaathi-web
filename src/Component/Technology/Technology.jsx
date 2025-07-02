@@ -4,7 +4,7 @@ import img from '../Technology/techo.gif'
 import Combination from "../Technology/Combination"
 const Technology = () => {
     return (
-        <>
+    <div className='container'>
       <div className="technology-section">
         <div className="tech-left">
           <h2 className="tech-heading">
@@ -28,7 +28,7 @@ const Technology = () => {
         <p className="scroll-down" onClick={() => window.scrollTo({ top: document.body.scrollHeight - window.innerHeight, behavior: 'smooth' })}>Scroll Down</p>
       </div>
         <Combination />
-      </>
+      </div>
     );
   };
   

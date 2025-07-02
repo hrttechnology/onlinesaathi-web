@@ -6,7 +6,7 @@ function Saathi() {
     const isMobile = useMediaQuery({ maxWidth: 767 });
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
     return (
-        <>
+        <div className='container'   style={{ marginTop: '50px' }}>
             <h1 className='mt-5' style={{
                 fontSize: window.innerWidth < 768 ? "34px" : "52px",
                 fontWeight: "700",
@@ -26,7 +26,7 @@ function Saathi() {
                 
             </div>
             <Combination />
-        </>
+        </div>
     )
 }
 

@@ -85,12 +85,12 @@ function Footer() {
             <div className="col-lg-2 col-md-3 saathi-footer-links">
               <h4 className="text-white">Important Links</h4>
               <ul className="list-unstyled">
-              <li>
-                     <NavLink to="/" className="text-white text-decoration-none"
-                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                     >
-                             Home</NavLink>
-                        </li>
+                <li>
+                  <NavLink to="/" className="text-white text-decoration-none"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Home</NavLink>
+                </li>
 
                 <li>
                   <NavLink to="/about" className="text-white text-decoration-none" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
@@ -112,7 +112,7 @@ function Footer() {
                     Saathi
                   </NavLink>
                 </li>
-               
+
               </ul>
             </div>
 
@@ -177,7 +177,7 @@ function Footer() {
           </div>
 
           {/* Policy Links */}
-          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3 text-center"
+          {/* <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3 text-center"
           style={{ gap: isMobile ? '8px' : '20px' }}>
     <NavLink to="/refund-policy" className="text-white text-decoration-underline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
     <h5 className="mb-0">Refund Policy</h5>
@@ -188,22 +188,51 @@ function Footer() {
     <NavLink to="/privacy-policy" className="text-white text-decoration-underline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
       <h5 className="mb-0">Privacy Policy</h5>
     </NavLink>
-    </div>
+    </div> */}
 
         </div>
       </footer>
 
       {/* Copyright */}
-      <div
-        className="bg-primary text-white d-flex align-items-center py-2"
-        style={{ height: isMobile ? 'auto' : isTablet ? 'auto' : '60px' }}
+    <div
+  className="bg-primary text-white py-0"
+>
+  <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-2">
+    
+    <h5 className="mb-0">
+      © 2018-2025 Online Saathi. All Rights Reserved.
+    </h5>
+
+    <div className="d-flex flex-column flex-md-row align-items-center gap-2">
+      <NavLink
+        to="/refund-policy"
+        className="text-white text-decoration-underline"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <div className="container text-center">
-          <h5 className="mb-0">
-            Copyright © 2018-2025 Online Saathi. All Rights Reserved.
-          </h5>
-        </div>
-      </div>
+        <h5 className="mb-0">Refund Policy</h5>
+      </NavLink>
+
+      <NavLink
+        to="/terms-condition"
+        className="text-white text-decoration-underline"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        <h5 className="mb-0">Terms & Conditions</h5>
+      </NavLink>
+
+      <NavLink
+        to="/privacy-policy"
+        className="text-white text-decoration-underline"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        <h5 className="mb-0">Privacy Policy</h5>
+      </NavLink>
+    </div>
+
+  </div>
+</div>
+
+
     </>
   );
 }
