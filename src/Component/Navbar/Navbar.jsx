@@ -76,7 +76,7 @@ function Navbar() {
                                     <NavLink to="/sathi" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} style={{ fontSize: '15px', color: '#000', fontWeight: '600' }} onClick={collapseNavbar}>Saathi</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" style={{ fontSize: '15px', color: '#000', fontWeight: '600' }} onClick={collapseNavbar}>Services</NavLink>
+                                    <NavLink to="#" className="nav-link dropdwn-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" style={{ fontSize: '15px', color: '#000', fontWeight: '600' }} onClick={collapseNavbar}>Services</NavLink>
                                     <ul className="dropdown-menu">
                                         <li><NavLink to="/safe" className="dropdown-item" onClick={collapseNavbar}>Safe Jobs Connect</NavLink></li>
                                         <li><NavLink to="/social" className="dropdown-item"  onClick={collapseNavbar}>Social Welfare Schemes</NavLink></li>
@@ -103,7 +103,7 @@ function Navbar() {
                                 </li>
                                 <li className="nav-item">
                                     <div className="login-button d-flex align-items-center justify-content-center" style={{ background: '#0077FF', height: '36px', width: '110px', borderRadius: '8px' }}>
-                                        <NavLink to="/login" style={{ color: '#fff', fontWeight: '700', fontSize: '14px', textDecoration: 'none' }}>Login</NavLink>
+                                        <NavLink to="/admin.onlinesaathi.org" target='_blank' style={{ color: '#fff', fontWeight: '700', fontSize: '14px', textDecoration: 'none' }}>Login</NavLink>
                                     </div>
                                 </li>
                             </ul>
