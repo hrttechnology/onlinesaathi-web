@@ -38,7 +38,7 @@ function Footer() {
             }}
           >
             <NavLink
-              to="/login"
+              to="https://admin.onlinesaathi.org/#/auth/registeruser" target='_blank'
               className="text-white fw-bold text-decoration-none d-flex align-items-center"
               style={{ fontSize: isMobile ? '11px' : '13px' }}
             >
@@ -59,23 +59,23 @@ function Footer() {
               </NavLink>
               <div className="saathi-footer-contact pt-2">
                 <p>
-                  <img src={googleplay} style={{ height: '40px' }} alt="Google Play" />
+                  <a href="https://play.google.com/store/apps/details?id=com.recharge.online_saathi&hl=en_IN" target='_blank'><img src={googleplay} style={{ height: '40px' }} alt="Google Play" /></a> 
                 </p>
                 <p>
-                  <img src={apple} style={{ height: '40px', marginTop: '8px' }} alt="App Store" />
+                  <a href="https://www.apple.com/in/app-store/onlinesaathi" target='_blank'><img src={apple} style={{ height: '40px', marginTop: '8px' }} alt="App Store" /></a>
                 </p>
               </div>
               <div className="saathi-social-links d-flex mt-3">
-                <a href="https://twitter.com" className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
-                  <i className="fab fa-x-twitter"></i>
+                <a href="https://www.youtube.com/@onlinesaathi" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                  <i className="fab fa-youtube"></i>
                 </a>
-                <a href="https://facebook.com" className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                <a href="https://facebook.com/onlinesaathi" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://instagram.com" className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
-                  <i className="fab fa-instagram"></i>
+                <a href="https://whatsapp.com/channel/0029VaVLYnq6LwHfwUg2SK2c" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                  <i className="fab fa-whatsapp"></i>
                 </a>
-                <a href="https://linkedin.com" className="text-white rounded-circle border d-flex align-items-center justify-content-center">
+                <a href="https://www.linkedin.com/company/online-saathi/" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>

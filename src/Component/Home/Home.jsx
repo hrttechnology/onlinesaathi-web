@@ -208,17 +208,19 @@ function Home() {
                                         textAlign: "center"
                                     }}>
                                         Become a Saathi and earn up to 20k
-                                        <button style={{
-                                            backgroundColor: "white",
-                                            color: "#3C82F6",
-                                            border: "none",
-                                            padding: "5px 10px",
-                                            borderRadius: "5px",
-                                            fontWeight: "bold",
-                                            cursor: "pointer"
-                                        }}>
-                                            Apply Now
-                                        </button>
+                                        <a href="https://admin.onlinesaathi.org/#/auth/registeruser" target="_blank" rel="noopener noreferrer">
+                                            <button style={{
+                                                backgroundColor: "white",
+                                                color: "#3C82F6",
+                                                border: "none",
+                                                padding: "5px 10px",
+                                                borderRadius: "5px",
+                                                fontWeight: "bold",
+                                                cursor: "pointer"
+                                            }}>
+                                                Apply Now
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -348,17 +350,19 @@ function Home() {
                                         textAlign: "center"
                                     }}>
                                         Become a Saathi and earn up to 20k
-                                        <button style={{
-                                            backgroundColor: "white",
-                                            color: "#3C82F6",
-                                            border: "none",
-                                            padding: "5px 10px",
-                                            borderRadius: "5px",
-                                            fontWeight: "bold",
-                                            cursor: "pointer"
-                                        }}>
-                                            Apply Now
-                                        </button>
+                                         <a href="https://admin.onlinesaathi.org/#/auth/registeruser" target="_blank" rel="noopener noreferrer">
+                                            <button style={{
+                                                backgroundColor: "white",
+                                                color: "#3C82F6",
+                                                border: "none",
+                                                padding: "5px 10px",
+                                                borderRadius: "5px",
+                                                fontWeight: "bold",
+                                                cursor: "pointer"
+                                            }}>
+                                                Apply Now
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -488,17 +492,19 @@ function Home() {
                                         textAlign: "center"
                                     }}>
                                         Become a Saathi and earn up to 20k
-                                        <button style={{
-                                            backgroundColor: "white",
-                                            color: "#3C82F6",
-                                            border: "none",
-                                            padding: "5px 10px",
-                                            borderRadius: "5px",
-                                            fontWeight: "bold",
-                                            cursor: "pointer"
-                                        }}>
-                                            Apply Now
-                                        </button>
+                                         <a href="https://admin.onlinesaathi.org/#/auth/registeruser" target="_blank" rel="noopener noreferrer">
+                                            <button style={{
+                                                backgroundColor: "white",
+                                                color: "#3C82F6",
+                                                border: "none",
+                                                padding: "5px 10px",
+                                                borderRadius: "5px",
+                                                fontWeight: "bold",
+                                                cursor: "pointer"
+                                            }}>
+                                                Apply Now
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -628,17 +634,19 @@ function Home() {
                                         textAlign: "center"
                                     }}>
                                         Become a Saathi and earn up to 20k
-                                        <button style={{
-                                            backgroundColor: "white",
-                                            color: "#3C82F6",
-                                            border: "none",
-                                            padding: "5px 10px",
-                                            borderRadius: "5px",
-                                            fontWeight: "bold",
-                                            cursor: "pointer"
-                                        }}>
-                                            Apply Now
-                                        </button>
+                                        <a href="https://admin.onlinesaathi.org/#/auth/registeruser" target="_blank" rel="noopener noreferrer">
+                                            <button style={{
+                                                backgroundColor: "white",
+                                                color: "#3C82F6",
+                                                border: "none",
+                                                padding: "5px 10px",
+                                                borderRadius: "5px",
+                                                fontWeight: "bold",
+                                                cursor: "pointer"
+                                            }}>
+                                                Apply Now
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -647,7 +655,7 @@ function Home() {
                     </div>
 
                 </div>
-                    
+
                 {/* Navigation Controls */}
                 <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -658,79 +666,79 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <Challange/>
-            
-                {/* Our Solution */}
-             
-                <Solution />
-                <Techo />
-                {/* Our Innovation */}
-                <Drops />
-                {/*  */}
-                
-                {/* Our strenght */}
-                <Assurance />
-                {/* Become a sathi */}
-                <Become />
-                {/* why become a saathi  */}
-                <HoverBox />
-                {/* our prasence  */}
-                <h1 className='mt-5 mb-4' style={{
-                    fontSize: window.innerWidth < 768 ? "34px" : "52px",
-                    fontWeight: "700",
-                    width: '100%',
-                    color: '#000',
-                    textAlign: 'center'
-                }}>
-                    <span>Our</span>
-                    <span style={{ color: '#0077FF' }}> Presence</span>
-                </h1>
-                <br />
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img src={india} style={{ height: isMobile ? '300px' : '600px' }} alt="" />
-                </div>
-                <Ourpatner />
-                {/* img scroll */}
-                <h1 className='mt-5' style={{
-                    fontSize: window.innerWidth < 768 ? "34px" : "52px",
-                    fontWeight: "700",
-                    width: '100%',
-                    color: '#000',
-                    textAlign: 'center'
-                }}>
-                    <span>Our </span>
-                    <span style={{ color: '#0077FF' }}>Partners</span>
-                </h1>
-                
-                <br />
-                <br />
-                <div className=" container">
-                    <div className="scroll-container">
-                        <div className="scroll-content container">
-                            {/* 🔥 SINGLE image-row repeated twice for seamless effect */}
-                            <div className="image-row">
-                                <img src={img0} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img1} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img2} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img3} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img4} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img5} className="img-fluid" id="second-marks" alt="companyLogo" />
+            <Challange />
 
-                                {/* 🔥 Duplicate same row (for infinite seamless scroll) */}
-                                <img src={img0} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img1} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img2} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img3} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img4} className="img-fluid" id="second-marks" alt="companyLogo" />
-                                <img src={img5} className="img-fluid" id="second-marks" alt="companyLogo" />
-                            </div>
+            {/* Our Solution */}
+
+            <Solution />
+            <Techo />
+            {/* Our Innovation */}
+            <Drops />
+            {/*  */}
+
+            {/* Our strenght */}
+            <Assurance />
+            {/* Become a sathi */}
+            <Become />
+            {/* why become a saathi  */}
+            <HoverBox />
+            {/* our prasence  */}
+            <h1 className='mt-5 mb-4' style={{
+                fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                fontWeight: "700",
+                width: '100%',
+                color: '#000',
+                textAlign: 'center'
+            }}>
+                <span>Our</span>
+                <span style={{ color: '#0077FF' }}> Presence</span>
+            </h1>
+            <br />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={india} style={{ height: isMobile ? '300px' : '600px' }} alt="" />
+            </div>
+            <Ourpatner />
+            {/* img scroll */}
+            <h1 className='mt-5' style={{
+                fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                fontWeight: "700",
+                width: '100%',
+                color: '#000',
+                textAlign: 'center'
+            }}>
+                <span>Our </span>
+                <span style={{ color: '#0077FF' }}>Partners</span>
+            </h1>
+
+            <br />
+            <br />
+            <div className=" container">
+                <div className="scroll-container">
+                    <div className="scroll-content container">
+                        {/* 🔥 SINGLE image-row repeated twice for seamless effect */}
+                        <div className="image-row">
+                            <img src={img0} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img1} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img2} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img3} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img4} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img5} className="img-fluid" id="second-marks" alt="companyLogo" />
+
+                            {/* 🔥 Duplicate same row (for infinite seamless scroll) */}
+                            <img src={img0} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img1} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img2} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img3} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img4} className="img-fluid" id="second-marks" alt="companyLogo" />
+                            <img src={img5} className="img-fluid" id="second-marks" alt="companyLogo" />
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <Testimonial />
-                <Join />
-                <Contact />
+            <Testimonial />
+            <Join />
+            <Contact />
             {/* </div> */}
         </>
     )
