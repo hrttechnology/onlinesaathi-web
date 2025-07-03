@@ -103,7 +103,7 @@ function Navbar() {
                                 </li>
                                 <li className="nav-item">
                                     <div className="login-button d-flex align-items-center justify-content-center" style={{ background: '#0077FF', height: '36px', width: '110px', borderRadius: '8px' }}>
-                                        <NavLink to="https://admin.onlinesaathi.org" target='_blank' style={{ color: '#fff', fontWeight: '700', fontSize: '14px', textDecoration: 'none' }}>Login</NavLink>
+                                        <NavLink to="https://admin.onlinesaathi.org" target='onlineSaathiAdmin' style={{ color: '#fff', fontWeight: '700', fontSize: '14px', textDecoration: 'none' }}>Login</NavLink>
                                     </div>
                                 </li>
                             </ul>

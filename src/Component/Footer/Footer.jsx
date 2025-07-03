@@ -66,7 +66,7 @@ function Footer() {
                 </p>
               </div>
               <div className="saathi-social-links d-flex mt-3">
-                <a href="https://www.youtube.com/@onlinesaathi" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                <a href="https://www.youtube.com/@onlinesaathi" target='youtube' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
                   <i className="fab fa-youtube"></i>
                 </a>
                 <a href="https://facebook.com/onlinesaathi" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
