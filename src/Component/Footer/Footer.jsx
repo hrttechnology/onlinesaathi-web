@@ -38,7 +38,7 @@ function Footer() {
             }}
           >
             <NavLink
-              to="https://admin.onlinesaathi.org/#/auth/registeruser" target='_blank'
+              to="https://admin.onlinesaathi.org/#/auth/registeruser" target='adminOninesaathiRagister'
               className="text-white fw-bold text-decoration-none d-flex align-items-center"
               style={{ fontSize: isMobile ? '11px' : '13px' }}
             >
@@ -59,25 +59,26 @@ function Footer() {
               </NavLink>
               <div className="saathi-footer-contact pt-2">
                 <p>
-                  <a href="https://play.google.com/store/apps/details?id=com.recharge.online_saathi&hl=en_IN" target='_blank'><img src={googleplay} style={{ height: '40px' }} alt="Google Play" /></a> 
+                  <NavLink to="https://play.google.com/store/apps/details?id=com.recharge.online_saathi&hl=en_IN" target='playGoogleStore' rel="noopener noreferrer"><img src={googleplay} style={{ height: '40px' }} alt="Google Play" /></NavLink> 
                 </p>
                 <p>
-                  <a href="https://www.apple.com/in/app-store/onlinesaathi" target='_blank'><img src={apple} style={{ height: '40px', marginTop: '8px' }} alt="App Store" /></a>
+                  <NavLink to="https://www.apple.com/in/app-store/onlinesaathi" target='appleInApp-storeOnlinesaathi'  > <img src={apple} style={{ height: '40px', marginTop: '8px' }} alt="App Store" /></NavLink>
                 </p>
+                
               </div>
               <div className="saathi-social-links d-flex mt-3">
-                <a href="https://www.youtube.com/@onlinesaathi" target='youtube' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                <NavLink to="https://www.youtube.com/@onlinesaathi" target='youtubeOnlinesaathi'  className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
                   <i className="fab fa-youtube"></i>
-                </a>
-                <a href="https://facebook.com/onlinesaathi" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                </NavLink>
+                <NavLink to="https://facebook.com/onlinesaathi" target='facebookOnlinesaathi' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://whatsapp.com/channel/0029VaVLYnq6LwHfwUg2SK2c" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
+                </NavLink>
+                <NavLink to="https://whatsapp.com/channel/0029VaVLYnq6LwHfwUg2SK2c"   target='channel/0029VaVLYnq6LwHfwUg2SK2c' className="text-white rounded-circle border d-flex align-items-center justify-content-center me-2">
                   <i className="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/online-saathi/" target='_blank' className="text-white rounded-circle border d-flex align-items-center justify-content-center">
+                </NavLink>
+                <NavLink to="https://www.linkedin.com/company/online-saathi/" target='online-saathi/' className="text-white rounded-circle border d-flex align-items-center justify-content-center">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </NavLink>
               </div>
             </div>
 
