@@ -22,7 +22,7 @@ import HoverBox from './HoverBox'
 import Ourpatner from './Ourpatner'
 import Testimonial from '../Service/Testimonial'
 import Contact from './Contact'
-import Join from './Join'
+// import Join from './Join'
 import Solution from './Solution';
 import Drops from './Drops'
 function Home() {
@@ -737,7 +737,7 @@ function Home() {
             </div>
 
             <Testimonial />
-            <Join />
+            {/* <Join /> */}
             <Contact />
             {/* </div> */}
         </>
